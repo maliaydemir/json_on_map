@@ -37,7 +37,7 @@ class _HomeScreenState extends State<HomeScreen> {
         centerTitle: true,
         actions: [
           IconButton(onPressed: (){
-            launchUrlString('https://github.com/maliaydemir',mode: LaunchMode.externalApplication);
+            launchUrlString('https://github.com/maliaydemir/json_on_map',mode: LaunchMode.externalApplication);
           }, icon: const Icon(Icons.home_rounded))
         ],
       ),
